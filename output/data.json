@@ -753,61 +753,6 @@
       "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
     },
     {
-      "name": "📁我的|夸夸",
-      "key": "MyQuark",
-      "type": 3,
-      "api": "csp_MyQuarkAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
-    },
-    {
-      "name": "📁我的|优汐",
-      "key": "MyUc",
-      "type": 3,
-      "api": "csp_MyUcAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
-    },
-    {
-      "name": "📁我的|光雅",
-      "key": "MyGuangya",
-      "type": 3,
-      "api": "csp_MyGuangyaAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
-    },
-    {
-      "name": "📁我的|123",
-      "key": "My123",
-      "type": 3,
-      "api": "csp_My123Amns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
-    },
-    {
-      "name": "📁我的|DIY",
-      "key": "Diyre",
-      "type": 3,
-      "api": "csp_DiyreAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
-    },
-    {
       "name": "🛴推送|播放",
       "key": "push_agent",
       "type": 3,
@@ -1867,66 +1812,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/f7d08ef665fd7ebc"
-    },
-    {
-      "key": "夸克网盘",
-      "name": "🗂️我的丨夸克网盘",
-      "type": 3,
-      "api": "csp_PanQuark",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/f7d08ef665fd7ebc"
-    },
-    {
-      "key": "UC网盘",
-      "name": "🗂️我的丨UC网盘",
-      "type": 3,
-      "api": "csp_PanUC",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/f7d08ef665fd7ebc"
-    },
-    {
-      "key": "百度网盘",
-      "name": "🗂️我的丨百度网盘",
-      "type": 3,
-      "api": "csp_PanBaidu",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/f7d08ef665fd7ebc"
-    },
-    {
-      "key": "阿里云盘",
-      "name": "🗂️我的丨阿里网盘",
-      "type": 3,
-      "api": "csp_PanAli",
-      "searchable": 0,
-      "filterable": 0,
-      "changeable": 0,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "quickSearch": 1,
       "jar": "https://tvbox.apao.kdns.fr/jar/f7d08ef665fd7ebc"
     },
     {
@@ -3094,6 +2979,51 @@
       "filterable": 1
     },
     {
+      "key": "8tdy",
+      "name": "🐬八天电影.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/八天电影.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "ysxq",
+      "name": "🐬映像星球.py(关梯)",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/映像星球.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "sm",
+      "name": "🐬熊猫直播",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/熊猫直播.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "blzb",
+      "name": "🐬哔哩直播.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/哔哩直播.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "jhzb",
+      "name": "🐬聚合直播.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/聚合直播.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "非凡",
       "name": "🐬非凡影视",
       "type": 1,
@@ -3359,6 +3289,15 @@
       ]
     },
     {
+      "key": "MiFun",
+      "name": "🐬MiFun动漫.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/MiFun动漫.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "cj_360资源",
       "name": "🐬360丨短剧",
       "type": 1,
@@ -3378,6 +3317,24 @@
       ]
     },
     {
+      "key": "hmjc",
+      "name": "🐬河马剧场.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/河马剧场.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "djjh",
+      "name": "🐬短剧聚合.py",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/短剧聚合.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "捡的音乐",
       "name": "🐬爱听音乐",
       "type": 3,
@@ -3386,6 +3343,15 @@
       "quickSearch": 1,
       "ext": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/jar_js/Music1.json",
       "jar": "https://tvbox.apao.kdns.fr/jar/67f647570e3409ec",
+      "filterable": 1
+    },
+    {
+      "key": "UVOD",
+      "name": "🐬优视频.py 有🔞",
+      "type": 3,
+      "api": "https://ghfast.top/https://raw.githubusercontent.com/FGBLH/HKL/refs/heads/main/py/优视频.py",
+      "searchable": 1,
+      "quickSearch": 1,
       "filterable": 1
     },
     {
