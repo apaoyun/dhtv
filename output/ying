@@ -1,7 +1,7 @@
 [
     {
-        "key": "gimy",
-        "name": "GimyTube劇迷",
+        "key": "gimy_js",
+        "name": "GimyTube JS爬虫",
         "type": 3,
         "api": "https://gimytube.com",
         "searchable": 2,
@@ -9,29 +9,20 @@
         "filterable": 0,
         "pageSize": 6,
         "headers": {
-            "User-Agent": "Mozilla/5.0 (Android Mobile)",
+            "User-Agent": "Mozilla/5.0 Android Mobile",
             "Referer": "https://gimytube.com/"
         },
         "classes": [
-            {"type_name": "電視劇", "type_id": "/browse/2.html"},
-            {"type_name": "電影", "type_id": "/browse/1.html"},
-            {"type_name": "短劇", "type_id": "/browse/36.html"},
-            {"type_name": "動漫", "type_id": "/browse/35.html"},
-            {"type_name": "綜藝", "type_id": "/browse/29.html"},
-            {"type_name": "陸劇", "type_id": "/browse/20.html"},
-            {"type_name": "韓劇", "type_id": "/browse/13.html"},
-            {"type_name": "美劇", "type_id": "/browse/16.html"},
-            {"type_name": "日劇", "type_id": "/browse/15.html"},
-            {"type_name": "台劇", "type_id": "/browse/14.html"},
-            {"type_name": "港劇", "type_id": "/browse/21.html"},
-            {"type_name": "海外劇", "type_id": "/browse/31.html"},
-            {"type_name": "紀錄片", "type_id": "/browse/22.html"},
-            {"type_name": "排行榜", "type_id": "/label/top.html"}
+            {"type_name": "电视剧", "type_id": "/browse/2.html"},
+            {"type_name": "电影", "type_id": "/browse/1.html"},
+            {"type_name": "短剧", "type_id": "/browse/36.html"},
+            {"type_name": "动漫", "type_id": "/browse/35.html"},
+            {"type_name": "综艺", "type_id": "/browse/29.html"}
         ],
-        "homeJs": "let url=api;let html=req.get(url).text;let doc=parseHtml(html);let arr=[];doc.select(\".card\").each(item=>{let a=item.select(\"a\");arr.push({vod_name:item.select(\"h3.card__title\").text(),vod_pic:item.select(\"img\").attr(\"src\"),vod_id:a.attr(\"href\"),vod_remarks:item.select(\".card__badge\").text()});});return arr;",
-        "listJs": "let url=api+type_id;let html=req.get(url).text;let doc=parseHtml(html);let arr=[];doc.select(\".card\").each(item=>{let a=item.select(\"a\");arr.push({vod_name:item.select(\"h3.card__title\").text(),vod_pic:item.select(\"img\").attr(\"src\"),vod_id:a.attr(\"href\"),vod_remarks:item.select(\".card__badge\").text()});});return arr;",
-        "searchJs": "let wd=encodeURIComponent(key);let url=api+\"/search/-------------.html?wd=\"+wd;let html=req.get(url).text;let doc=parseHtml(html);let arr=[];doc.select(\".card\").each(item=>{let a=item.select(\"a\");arr.push({vod_name:item.select(\"h3.card__title\").text(),vod_pic:item.select(\"img\").attr(\"src\"),vod_id:a.attr(\"href\"),vod_remarks:item.select(\".card__badge\").text()});});return arr;",
-        "detailJs": "let url=api+vod_id;let html=req.get(url).text;let doc=parseHtml(html);let title=doc.select(\"h1\").text();let pic=doc.select(\".card__thumb img\").attr(\"src\");let meta=doc.select(\"p.card__meta\").text();let playFrom=[];let playUrl=[];doc.select(\".play-tab span\").each(t=>playFrom.push(t.text()));doc.select(\".play-list a\").each(a=>{let name=a.text();let link=a.attr(\"href\");playUrl.push(name+\"$\"+link);});return {vod_name:title,vod_pic:pic,vod_actor:meta,vod_content:\"\",vod_play_from:playFrom,vod_play_url:playUrl};",
-        "playJs": "var input={parse:1,url:input,js:\"\"};"
+        "homeJs": "let html=req.get(api).text;let doc=parseHtml(html);let list=[];doc.select('.card').each(el=>{let a=el.select('a');list.push({vod_name:el.select('h3.card__title').text(),vod_pic:el.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:el.select('.card__badge').text()});});return list;",
+        "listJs": "let url=api+type_id;let html=req.get(url).text;let doc=parseHtml(html);let list=[];doc.select('.card').each(el=>{let a=el.select('a');list.push({vod_name:el.select('h3.card__title').text(),vod_pic:el.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:el.select('.card__badge').text()});});return list;",
+        "searchJs": "let wd=encodeURIComponent(key);let url=api+'/search/-------------.html?wd='+wd;let html=req.get(url).text;let doc=parseHtml(html);let list=[];doc.select('.card').each(el=>{let a=el.select('a');list.push({vod_name:el.select('h3.card__title').text(),vod_pic:el.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:el.select('.card__badge').text()});});return list;",
+        "detailJs": "let url=api+vod_id;let html=req.get(url).text;let doc=parseHtml(html);let playFrom=[];let playUrl=[];doc.select('.play-tab span').each(i=>playFrom.push(i.text()));doc.select('.play-list a').each(i=>playUrl.push(i.text()+'$'+i.attr('href')));return {vod_name:doc.select('h1').text(),vod_pic:doc.select('.card__thumb img').attr('src'),vod_actor:doc.select('p.card__meta').text(),vod_content:'',vod_play_from:playFrom,vod_play_url:playUrl};",
+        "playJs": "var input={parse:1,url:input,js:''};return input;"
     }
 ]
