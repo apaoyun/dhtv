@@ -1,37 +1,22 @@
 {
   "sites": [
-    {
+  
+{
       "key": "gimytube",
-      "name": "GimyTube 劇迷",
+      "name": "GimyTube 劇迷 (電腦端)",
       "type": 3,
-      "api": "csp_Drpy",
+      "api": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/hjdhnx/dr_py/refs/heads/main/libs/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "changeable": 1,
       "ext": {
-        "主頁": "js",
         "host": "https://gimytube.com",
-        "class_name": "電視劇&短劇&電影&動漫&綜藝",
-        "class_url": "2&36&1&35&29",
-"headers": {
-  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  "Referer": "https://gimytube.com/",
-  "Origin": "https://gimytube.com"
-},
-        "play_parse": true,
-        "limit": 6,
-        "推荐": ".grid .card",
-        "一级": "js:let d=[];pdfh=jsp.pdfh;pdfa=jsp.pdfa;let list=pdfa(html,'.grid .card');list.forEach(it=>{d.push({title:pdfh(it,'.card__title&&Text'),img:pd(it,'img&&src'),desc:pdfh(it,'.card__badge&&Text'),url:pd(it,'a&&href')})});setResult(d);",
-        "二级": {
-          "title": "h1&&Text",
-          "img": ".st-cover&&src",
-          "desc": ".st-info&&Text",
-          "content": ".st-content&&Text",
-          "tabs": ".nav-tabs a",
-          "lists": ".st-playlist:eq(#id) a"
+        "headers": {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          "Referer": "https://gimytube.com/",
+          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
         },
-        "搜索": ".search__input"
+        "js": "./js/gimytube.js"
       }
     }
   ],
