@@ -16,7 +16,7 @@
           "Referer": "https://gimytube.com/",
           "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
         },
-        "js": "../js/gimytube.js"
+        "js": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/js/gimytube.js"
       }
     }
   ],
