@@ -1,28 +1,71 @@
 [
     {
-        "key": "gimy_js",
-        "name": "GimyTube JS爬虫",
-        "type": 3,
+        "key": "gimytube",
+        "name": "GimyTube劇迷",
+        "type": 1,
         "api": "https://gimytube.com",
         "searchable": 2,
         "quickSearch": 0,
         "filterable": 0,
         "pageSize": 6,
+        "double": true,
         "headers": {
-            "User-Agent": "Mozilla/5.0 Android Mobile",
+            "User-Agent": "Mozilla/5.0 (Android Mobile)",
             "Referer": "https://gimytube.com/"
         },
         "classes": [
-            {"type_name": "电视剧", "type_id": "/browse/2.html"},
             {"type_name": "电影", "type_id": "/browse/1.html"},
+            {"type_name": "电视剧", "type_id": "/browse/2.html"},
             {"type_name": "短剧", "type_id": "/browse/36.html"},
             {"type_name": "动漫", "type_id": "/browse/35.html"},
-            {"type_name": "综艺", "type_id": "/browse/29.html"}
+            {"type_name": "综艺", "type_id": "/browse/29.html"},
+            {"type_name": "陆剧", "type_id": "/browse/13.html"},
+            {"type_name": "韩剧", "type_id": "/browse/20.html"},
+            {"type_name": "美剧", "type_id": "/browse/16.html"},
+            {"type_name": "日剧", "type_id": "/browse/15.html"},
+            {"type_name": "台剧", "type_id": "/browse/14.html"},
+            {"type_name": "港剧", "type_id": "/browse/21.html"},
+            {"type_name": "海外剧", "type_id": "/browse/31.html"},
+            {"type_name": "纪录片", "type_id": "/browse/22.html"},
+            {"type_name": "排行榜", "type_id": "/label/top.html"}
         ],
-        "homeJs": "let html=req.get(api).text;let doc=parseHtml(html);let list=[];doc.select('.card').each(el=>{let a=el.select('a');list.push({vod_name:el.select('h3.card__title').text(),vod_pic:el.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:el.select('.card__badge').text()});});return list;",
-        "listJs": "let url=api+type_id;let html=req.get(url).text;let doc=parseHtml(html);let list=[];doc.select('.card').each(el=>{let a=el.select('a');list.push({vod_name:el.select('h3.card__title').text(),vod_pic:el.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:el.select('.card__badge').text()});});return list;",
-        "searchJs": "let wd=encodeURIComponent(key);let url=api+'/search/-------------.html?wd='+wd;let html=req.get(url).text;let doc=parseHtml(html);let list=[];doc.select('.card').each(el=>{let a=el.select('a');list.push({vod_name:el.select('h3.card__title').text(),vod_pic:el.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:el.select('.card__badge').text()});});return list;",
-        "detailJs": "let url=api+vod_id;let html=req.get(url).text;let doc=parseHtml(html);let playFrom=[];let playUrl=[];doc.select('.play-tab span').each(i=>playFrom.push(i.text()));doc.select('.play-list a').each(i=>playUrl.push(i.text()+'$'+i.attr('href')));return {vod_name:doc.select('h1').text(),vod_pic:doc.select('.card__thumb img').attr('src'),vod_actor:doc.select('p.card__meta').text(),vod_content:'',vod_play_from:playFrom,vod_play_url:playUrl};",
-        "playJs": "var input={parse:1,url:input,js:''};return input;"
+        "homeContent": [
+            {
+                "title": "精选推荐",
+                "expr": ".card",
+                "name": "h3.card__title@text",
+                "img": "img@src",
+                "url": "a@href",
+                "tag": ".card__badge@text"
+            }
+        ],
+        "list": {
+            "expr": ".card",
+            "name": "h3.card__title@text",
+            "img": "img@src",
+            "url": "a@href",
+            "tag": ".card__badge@text"
+        },
+        "detail": {
+            "title": "h1@text",
+            "img": ".card__thumb img@src",
+            "desc": "p.card__meta@text",
+            "content": "",
+            "playFrom": ".play-tab span@text",
+            "playUrl": ".play-list a@href&&a@text"
+        },
+        "search": {
+            "url": "/search/-------------.html?wd={wd}",
+            "page": 1,
+            "list": {
+                "expr": ".card",
+                "name": "h3.card__title@text",
+                "img": "img@src",
+                "url": "a@href",
+                "tag": ".card__badge@text"
+            }
+        },
+        "playParse": true,
+        "playJs": "var input={parse:1,url:input};"
     }
 ]
