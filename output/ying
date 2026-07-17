@@ -2,23 +2,73 @@
   "sites": [
   
 {
-      "key": "gimytube",
-      "name": "GimyTube 劇迷 (電腦端)",
-      "type": 3,
-      "api": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/hjdhnx/dr_py/refs/heads/main/libs/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "host": "https://gimytube.com",
-        "headers": {
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
-          "Referer": "https://gimytube.com/",
-          "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8"
-        },
-        "js": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/js/gimytube.js"
-      }
-    }
+    "key": "gimy",
+    "name": "GimyTube 劇迷",
+    "type": 1,
+    "api": "https://gimytube.com",
+    "searchable": 2,
+    "quickSearch": 0,
+    "filterable": 0,
+    "headers": {
+        "User-Agent": "MOBILE\_UA"
+    },
+    "class": \[
+        {"name": "电影", "url": "/browse/1.html"},
+        {"name": "电视剧", "url": "/browse/2.html"},
+        {"name": "动漫", "url": "/browse/35.html"},
+        {"name": "综艺", "url": "/browse/29.html"},
+        {"name": "韩剧", "url": "/browse/20.html"},
+        {"name": "港剧", "url": "/browse/21.html"},
+        {"name": "短剧", "url": "/browse/36.html"}
+    \],
+    "recommend": {
+        "list": \[
+            {
+                "item": ".card",
+                "title": "h3.card\_\_title@text",
+                "img": "img@src",
+                "url": "a@href",
+                "tag": ".card\_\_badge@text"
+            }
+        \]
+    },
+    "list": \[
+        {
+            "item": ".card",
+            "title": "h3.card\_\_title@text",
+            "img": "img@src",
+            "url": "a@href",
+            "tag": ".card\_\_badge@text"
+        }
+    \],
+    "detail": {
+        "title": "h1@text",
+        "img": "img@src",
+        "desc": "p.card\_\_meta@text",
+        "content": "p.card\_\_meta@text",
+        "tabs": "span@text",
+        "lists": "a@href&&a@text"
+    },
+    "search": {
+        "url": "/search/-------------.html?wd={wd}",
+        "pageable": true,
+        "list": \[
+            {
+                "item": ".card",
+                "title": "h3.card\_\_title@text",
+                "img": "img@src",
+                "url": "a@href",
+                "tag": ".card\_\_badge@text"
+            }
+        \]
+    },
+    "play": {
+        "parse": true,
+        "js": "var input = {parse:1,url:input,js:''};"
+    },
+    "pageSize": 6,
+    "double": true
+}
   ],
   "parses": [
     {
