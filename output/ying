@@ -1,70 +1,64 @@
 [
     {
         "key": "gimy",
-        "name": "GimyTube 劇迷",
+        "name": "GimyTube劇迷",
         "type": 1,
         "api": "https://gimytube.com",
         "searchable": 2,
         "quickSearch": 0,
         "filterable": 0,
         "headers": {
-            "User-Agent": "MOBILE_UA"
+            "User-Agent": "Mozilla/5.0 Mobile"
         },
-        "class": [
-            {"name": "电影", "url": "/browse/1.html"},
-            {"name": "电视剧", "url": "/browse/2.html"},
-            {"name": "动漫", "url": "/browse/35.html"},
-            {"name": "综艺", "url": "/browse/29.html"},
-            {"name": "韩剧", "url": "/browse/20.html"},
-            {"name": "港剧", "url": "/browse/21.html"},
-            {"name": "短剧", "url": "/browse/36.html"}
+        "classes": [
+            {"type_name": "电影", "type_id": "/browse/1.html"},
+            {"type_name": "电视剧", "type_id": "/browse/2.html"},
+            {"type_name": "动漫", "type_id": "/browse/35.html"},
+            {"type_name": "综艺", "type_id": "/browse/29.html"},
+            {"type_name": "韩剧", "type_id": "/browse/20.html"},
+            {"type_name": "港剧", "type_id": "/browse/21.html"},
+            {"type_name": "短剧", "type_id": "/browse/36.html"}
         ],
-        "recommend": {
-            "list": [
-                {
-                    "item": ".card",
-                    "title": "h3.card__title@text",
-                    "img": "img@src",
-                    "url": "a@href",
-                    "tag": ".card__badge@text"
-                }
-            ]
-        },
-        "list": [
+        "homeContent": [
             {
-                "item": ".card",
-                "title": "h3.card__title@text",
+                "title": "精选推荐",
+                "expr": ".card",
                 "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
+                "name": "h3.card__title@text",
+                "tag": ".card__badge@text",
+                "url": "a@href"
             }
         ],
+        "list": {
+            "expr": ".card",
+            "img": "img@src",
+            "name": "h3.card__title@text",
+            "tag": ".card__badge@text",
+            "url": "a@href"
+        },
         "detail": {
             "title": "h1@text",
-            "img": "img@src",
+            "img": ".card__thumb img@src",
             "desc": "p.card__meta@text",
-            "content": "p.card__meta@text",
-            "tabs": "span@text",
-            "lists": "a@href&&a@text"
+            "content": "",
+            "playFrom": ".play-tab span",
+            "playUrl": ".play-list a"
         },
         "search": {
             "url": "/search/-------------.html?wd={wd}",
-            "pageable": true,
-            "list": [
-                {
-                    "item": ".card",
-                    "title": "h3.card__title@text",
-                    "img": "img@src",
-                    "url": "a@href",
-                    "tag": ".card__badge@text"
-                }
-            ]
+            "page": 1,
+            "pageSize": 6,
+            "list": {
+                "expr": ".card",
+                "img": "img@src",
+                "name": "h3.card__title@text",
+                "tag": ".card__badge@text",
+                "url": "a@href"
+            }
         },
-        "play": {
-            "parse": true,
-            "js": "var input = {parse:1,url:input,js:''};"
-        },
-        "pageSize": 6,
-        "double": true
+        "playParse": true,
+        "playJs": "var input = {parse:1,url:input,js:''};",
+        "double": true,
+        "pageSize": 6
     }
 ]
