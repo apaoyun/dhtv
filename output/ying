@@ -10,7 +10,7 @@
         "pageSize": 6,
         "double": true,
         "headers": {
-            "User-Agent": "Mozilla/5.0 (Android Mobile)",
+            "User-Agent": "Mozilla/5.0 Android Mobile",
             "Referer": "https://gimytube.com/"
         },
         "classes": [
@@ -32,39 +32,7 @@
         "homeContent": [
             {
                 "title": "精选推荐",
-                "expr": ".section:first-of-type .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门电视剧",
-                "expr": ".section:nth-of-type(2) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门电影",
-                "expr": ".section:nth-of-type(3) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门动漫",
-                "expr": ".section:nth-of-type(4) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门综艺",
-                "expr": ".section:nth-of-type(5) .card",
+                "expr": ".card",
                 "name": "h3.card__title@text",
                 "img": "img@src",
                 "url": "a@href",
@@ -102,4 +70,3 @@
         "playJs": "var input={parse:1,url:input,js:''};"
     }
 ]
-
