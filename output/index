@@ -1,16 +1,14 @@
 {
   "sites": [
-    {
-      "key": "gimytube",
-      "name": "GimyTube劇迷",
-      "type": 3,
-      "api": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js",
-      "search": 1,
-      "filter": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "js": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js"
-    }
+   {
+    "name": "GimyTube劇迷",
+    "type": 3,
+    "api": "csp_gimytube",
+    "searchable": 1,
+    "quickSearch": 1,
+    "filterable": 1,
+    "ext": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js"
+   }
   ],
   "parses": [
     {
