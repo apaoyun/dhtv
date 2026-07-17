@@ -1,14 +1,14 @@
 {
   "sites": [
-   {
-    "name": "GimyTube劇迷",
-    "type": 3,
-    "api": "csp_gimytube",
-    "searchable": 1,
-    "quickSearch": 1,
-    "filterable": 1,
-    "ext": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js"
-   }
+
+ {
+  "key": "gimytube",
+  "name": "GimyTube",
+  "type": 3,
+  "api": "csp_gimytube",
+  "ext": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js",
+  "searchable": 1
+  }
   ],
   "parses": [
     {
@@ -83,7 +83,6 @@
   "ijk": [],
   "菜妮丝": "https://菜妮丝.top",
   "友情提醒": "接口完全免费，切勿付费购买。",
-  "spider": "https://tv.菜妮丝.top/jar/fty0528.jar;md5;4905535609a9c0ce9cc2f652d6d90bda",
   "logo": "https://q2.qlogo.cn/headimg_dl?dst_uin=524187805&spec=100",
   "wallpaper": "https://api.hanximeng.com/ranimg/?size=m",
   "flags": [
