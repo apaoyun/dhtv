@@ -1,28 +1,107 @@
 {
-   "jar": "https://tvbox.apao.kdns.fr/jar/625131d4caa2f21c12a5dae01da59fd1;md5;625131d4caa2f21c12a5dae01da59fd1"
-    "sites": [
-        {
-            "key": "gimytube",
-            "name": "GimyTube劇迷",
-            "type": 3,
-            "api": "https://gimytube.com",
-            "search": 1,
-            "filter": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "js": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js"
-        }
-    ],
-    "parses": [
-        {
-            "name": "Gimy專用解密",
-            "type": 1,
-            "js": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimy_parse.js"
-        },
-        {
-            "name": "通用兜底解析",
-            "type": 0,
-            "url": "https://jx.caiji.cloud/jx?url="
-        }
-    ]
+  "sites": [
+    {
+      "key": "gimytube",
+      "name": "GimyTube劇迷",
+      "type": 3,
+      "api": "https://tv.菜妮丝.top/jar/fty0528.jar;md5;4905535609a9c0ce9cc2f652d6d90bda",
+      "search": 1,
+      "filter": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "js": "https://v4.gh-proxy.org/https://raw.githubusercontent.com/apaoyun/dhtv/refs/heads/main/output/js/gimytube.js"
+    }
+  ],
+  "parses": [
+    {
+      "name": "解析聚合",
+      "type": 3,
+      "url": "Web"
+    },
+    {
+      "name": "HLS",
+      "type": 0,
+      "url": "https://jx.hls.one/?url="
+    },
+    {
+      "name": "虾米",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url="
+    },
+    {
+      "name": "虾米2",
+      "type": 0,
+      "url": "https://jx.xmflv.cc/?url="
+    }
+  ],
+  "lives": [],
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
+  "ads": [],
+  "proxy": [],
+  "rules": [],
+  "ijk": [],
+  "菜妮丝": "https://菜妮丝.top",
+  "友情提醒": "接口完全免费，切勿付费购买。",
+  "spider": "https://tv.菜妮丝.top/jar/fty0528.jar;md5;4905535609a9c0ce9cc2f652d6d90bda",
+  "logo": "https://q2.qlogo.cn/headimg_dl?dst_uin=524187805&spec=100",
+  "wallpaper": "https://api.hanximeng.com/ranimg/?size=m",
+  "flags": [
+    "youku",
+    "tudou",
+    "qq",
+    "qiyi",
+    "iqiyi",
+    "leshi",
+    "letv",
+    "sohu",
+    "imgo",
+    "mgtv",
+    "bilibili",
+    "pptv",
+    "PPTV",
+    "migu"
+  ]
 }
