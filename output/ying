@@ -10,71 +10,29 @@
         "pageSize": 6,
         "double": true,
         "headers": {
-            "User-Agent": "Mozilla/5.0 (Linux; Android 12; Mobile) AppleWebKit/537.36 Chrome Mobile Safari/537.36",
+            "User-Agent": "Mozilla/5.0 (Android) Mobile Chrome",
             "Referer": "https://gimytube.com/"
         },
         "classes": [
-            {
-                "type_name": "电影",
-                "type_id": "/browse/1.html"
-            },
-            {
-                "type_name": "电视剧",
-                "type_id": "/browse/2.html"
-            },
-            {
-                "type_name": "短剧",
-                "type_id": "/browse/36.html"
-            },
-            {
-                "type_name": "动漫",
-                "type_id": "/browse/35.html"
-            },
-            {
-                "type_name": "综艺",
-                "type_id": "/browse/29.html"
-            },
-            {
-                "type_name": "陆剧",
-                "type_id": "/browse/13.html"
-            },
-            {
-                "type_name": "韩剧",
-                "type_id": "/browse/20.html"
-            },
-            {
-                "type_name": "美剧",
-                "type_id": "/browse/16.html"
-            },
-            {
-                "type_name": "日剧",
-                "type_id": "/browse/15.html"
-            },
-            {
-                "type_name": "台剧",
-                "type_id": "/browse/14.html"
-            },
-            {
-                "type_name": "港剧",
-                "type_id": "/browse/21.html"
-            },
-            {
-                "type_name": "海外剧",
-                "type_id": "/browse/31.html"
-            },
-            {
-                "type_name": "纪录片",
-                "type_id": "/browse/22.html"
-            },
-            {
-                "type_name": "排行榜",
-                "type_id": "/label/top.html"
-            }
+            {"type_name": "电影", "type_id": "/browse/1.html"},
+            {"type_name": "电视剧", "type_id": "/browse/2.html"},
+            {"type_name": "短剧", "type_id": "/browse/36.html"},
+            {"type_name": "动漫", "type_id": "/browse/35.html"},
+            {"type_name": "综艺", "type_id": "/browse/29.html"},
+            {"type_name": "陆剧", "type_id": "/browse/13.html"},
+            {"type_name": "韩剧", "type_id": "/browse/20.html"},
+            {"type_name": "美剧", "type_id": "/browse/16.html"},
+            {"type_name": "日剧", "type_id": "/browse/15.html"},
+            {"type_name": "台剧", "type_id": "/browse/14.html"},
+            {"type_name": "港剧", "type_id": "/browse/21.html"},
+            {"type_name": "海外剧", "type_id": "/browse/31.html"},
+            {"type_name": "纪录片", "type_id": "/browse/22.html"},
+            {"type_name": "排行榜", "type_id": "/label/top.html"}
         ],
         "homeContent": [
             {
                 "title": "精选推荐",
-                "expr": ".card",
+                "expr": ".section:first-of-type .card",
                 "name": "h3.card__title@text",
                 "img": "img@src",
                 "url": "a@href",
@@ -82,7 +40,7 @@
             },
             {
                 "title": "热门电视剧",
-                "expr": ".section:has(h2:contains(热门电视剧)) .card",
+                "expr": ".section:nth-of-type(2) .card",
                 "name": "h3.card__title@text",
                 "img": "img@src",
                 "url": "a@href",
@@ -90,7 +48,7 @@
             },
             {
                 "title": "热门电影",
-                "expr": ".section:has(h2:contains(热门电影)) .card",
+                "expr": ".section:nth-of-type(3) .card",
                 "name": "h3.card__title@text",
                 "img": "img@src",
                 "url": "a@href",
@@ -98,7 +56,7 @@
             },
             {
                 "title": "热门动漫",
-                "expr": ".section:has(h2:contains(热门動漫)) .card",
+                "expr": ".section:nth-of-type(4) .card",
                 "name": "h3.card__title@text",
                 "img": "img@src",
                 "url": "a@href",
@@ -106,7 +64,7 @@
             },
             {
                 "title": "热门综艺",
-                "expr": ".section:has(h2:contains(熱門綜藝)) .card",
+                "expr": ".section:nth-of-type(5) .card",
                 "name": "h3.card__title@text",
                 "img": "img@src",
                 "url": "a@href",
@@ -141,6 +99,6 @@
             }
         },
         "playParse": true,
-        "playJs": "var input = {parse:1,url:input,js:''};"
+        "playJs": "var input={parse:1,url:input,js:''};"
     }
 ]
