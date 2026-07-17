@@ -1,104 +1,27 @@
 [
     {
-        "key": "gimy",
-        "name": "GimyTube劇迷",
-        "type": 1,
+        "key": "gimy_js",
+        "name": "Gimy JS爬虫(type3)",
+        "type": 3,
         "api": "https://gimytube.com",
         "searchable": 2,
         "quickSearch": 0,
         "filterable": 0,
         "pageSize": 6,
-        "double": true,
         "headers": {
-            "User-Agent": "Mozilla/5.0 (Android) Mobile Chrome",
+            "User-Agent": "Mozilla/5.0 Android Mobile",
             "Referer": "https://gimytube.com/"
         },
         "classes": [
             {"type_name": "电影", "type_id": "/browse/1.html"},
             {"type_name": "电视剧", "type_id": "/browse/2.html"},
-            {"type_name": "短剧", "type_id": "/browse/36.html"},
             {"type_name": "动漫", "type_id": "/browse/35.html"},
-            {"type_name": "综艺", "type_id": "/browse/29.html"},
-            {"type_name": "陆剧", "type_id": "/browse/13.html"},
-            {"type_name": "韩剧", "type_id": "/browse/20.html"},
-            {"type_name": "美剧", "type_id": "/browse/16.html"},
-            {"type_name": "日剧", "type_id": "/browse/15.html"},
-            {"type_name": "台剧", "type_id": "/browse/14.html"},
-            {"type_name": "港剧", "type_id": "/browse/21.html"},
-            {"type_name": "海外剧", "type_id": "/browse/31.html"},
-            {"type_name": "纪录片", "type_id": "/browse/22.html"},
-            {"type_name": "排行榜", "type_id": "/label/top.html"}
+            {"type_name": "综艺", "type_id": "/browse/29.html"}
         ],
-        "homeContent": [
-            {
-                "title": "精选推荐",
-                "expr": ".section:first-of-type .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门电视剧",
-                "expr": ".section:nth-of-type(2) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门电影",
-                "expr": ".section:nth-of-type(3) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门动漫",
-                "expr": ".section:nth-of-type(4) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            },
-            {
-                "title": "热门综艺",
-                "expr": ".section:nth-of-type(5) .card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            }
-        ],
-        "list": {
-            "expr": ".card",
-            "name": "h3.card__title@text",
-            "img": "img@src",
-            "url": "a@href",
-            "tag": ".card__badge@text"
-        },
-        "detail": {
-            "title": "h1@text",
-            "img": ".card__thumb img@src",
-            "desc": "p.card__meta@text",
-            "content": "",
-            "playFrom": ".play-tab span@text",
-            "playUrl": ".play-list a@href&&a@text"
-        },
-        "search": {
-            "url": "/search/-------------.html?wd={wd}",
-            "page": 1,
-            "pageSize": 6,
-            "list": {
-                "expr": ".card",
-                "name": "h3.card__title@text",
-                "img": "img@src",
-                "url": "a@href",
-                "tag": ".card__badge@text"
-            }
-        },
-        "playParse": true,
-        "playJs": "var input={parse:1,url:input,js:''};"
+        "homeJs": "let url = api; let html = req.get(url).text; let doc = parseHtml(html); let arr = []; doc.select('.section:first-of-type .card').each(i=>{let a = i.select('a'); arr.push({vod_name:i.select('h3.card__title').text(),vod_pic:i.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:i.select('.card__badge').text()})}); return arr;",
+        "listJs": "let url = api + type_id; let html = req.get(url).text; let doc = parseHtml(html); let arr = []; doc.select('.card').each(i=>{let a = i.select('a'); arr.push({vod_name:i.select('h3.card__title').text(),vod_pic:i.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:i.select('.card__badge').text()})}); return arr;",
+        "searchJs": "let wd = encodeURIComponent(key); let url = api + '/search/-------------.html?wd=' + wd; let html = req.get(url).text; let doc = parseHtml(html); let arr = []; doc.select('.card').each(i=>{let a = i.select('a'); arr.push({vod_name:i.select('h3.card__title').text(),vod_pic:i.select('img').attr('src'),vod_id:a.attr('href'),vod_remarks:i.select('.card__badge').text()})}); return arr;",
+        "detailJs": "let url = api + vod_id; let html = req.get(url).text; let doc = parseHtml(html); let title = doc.select('h1').text(); let pic = doc.select('.card__thumb img').attr('src'); let meta = doc.select('p.card__meta').text(); let playFrom = []; let playUrl = []; doc.select('.play-tab span').each(t=>playFrom.push(t.text())); doc.select('.play-list a').each((idx,a)=>{let name = a.text(); let link = a.attr('href'); playUrl.push(name+'$'+link)}); return {vod_name:title,vod_pic:pic,vod_actor:meta,vod_content:'',vod_play_from:playFrom,vod_play_url:playUrl};",
+        "playJs": "let input = {parse:1,url:input,js:''}; return input;"
     }
 ]
