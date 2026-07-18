@@ -1,0 +1,59 @@
+<svg width="960" height="310" xmlns="http://www.w3.org/2000/svg">
+  <!-- CRT黑色底色 -->
+  <rect width="960" height="310" rx="8" fill="#000900"/>
+  <!-- 扫描线滤镜 -->
+  <defs>
+    <pattern id="scanline" width="1" height="3" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1.5" fill="#0f380f" opacity="0.3"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1.2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="960" height="310" fill="url(#scanline)"/>
+
+  <!-- 老式简易窗口边框 -->
+  <rect x="6" y="6" width="948" height="298" rx="6" stroke="#206020" stroke-width="2" fill="none"/>
+  <text x="20" y="26" fill="#39ff14" font-size="13" font-family="Consolas,monospace">[root@hack ~]# </text>
+
+  <!-- 闪烁荧光光标 -->
+  <rect x="12" y="54" width="8" height="18" fill="#39ff14" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0;1" dur="0.6s" repeatCount="indefinite"/>
+  </rect>
+
+  <g font-family="Consolas,Menlo,monospace" font-size="15" fill="#39ff14" filter="url(#glow)">
+    <!-- 第一行逐字打印 -->
+    <text x="28" y="68">
+      <tspan opacity="0"><animate to="1" begin="0.15s" fill="freeze"/>e</tspan>
+      <tspan opacity="0"><animate to="1" begin="0.28s" fill="freeze"/>c</tspan>
+      <tspan opacity="0"><animate to="1" begin="0.41s" fill="freeze"/>h</tspan>
+      <tspan opacity="0"><animate to="1" begin="0.54s" fill="freeze"/>o</tspan>
+      <tspan> "除了 bug，万事皆可解"</tspan>
+    </text>
+
+    <!-- 第二行延时出现 -->
+    <text x="28" y="100" opacity="0">
+      <animate from="0" to="1" begin="3.8s" dur="0.05s" fill="freeze"/>
+      echo "头发常在，代码不改"
+    </text>
+
+    <!-- 第三行延时出现 -->
+    <text x="28" y="132" opacity="0">
+      <animate from="0" to="1" begin="6.8s" dur="0.05s" fill="freeze"/>
+      echo "需求千千万，逻辑第一条"
+    </text>
+
+    <!-- 第四行延时出现 -->
+    <text x="28" y="164" opacity="0">
+      <animate from="0" to="1" begin="9.8s" dur="0.05s" fill="freeze"/>
+      echo "人生无缓存，凡事皆重构"
+    </text>
+
+    <!-- 整轮循环清空重置，总时长14秒循环 -->
+    <animate attributeName="opacity" values="1;0;1" begin="14s" dur="14s" repeatCount="indefinite"/>
+  </g>
+</svg>
