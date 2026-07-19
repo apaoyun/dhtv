@@ -1,4 +1,4 @@
 <div>
-<img src="./assets/terminal.svg" width="100%">
+<img src="./assets/terminal.svg?v4" width="100%">
 
 </div>
