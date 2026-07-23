@@ -3083,6 +3083,16 @@
       "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
     },
     {
+      "key": "官采",
+      "name": "🎫官采┃[采集] 「demo」",
+      "type": 1,
+      "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "腾腾",
       "name": "🐧腾腾┃[解析]",
       "type": 3,
@@ -3875,6 +3885,15 @@
       "filterable": 1
     },
     {
+      "key": "火云",
+      "name": "🔥火云丨4K影视",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tomorrow/refs/heads/master/JS/火云.js",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "天堂1",
       "name": "🎬电影天堂丨蓝光 「网络接口」",
       "type": 3,
@@ -4017,6 +4036,16 @@
       "genre": "shortdrama"
     },
     {
+      "key": "甜圈短剧",
+      "name": "🍥甜圈｜短剧合集",
+      "type": 3,
+      "api": "https://8815.kstore.vip/tvbox/py/%E7%94%9C%E5%9C%88%E7%9F%AD%E5%89%A7.py",
+      "searchable": 0,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "星芽短剧",
       "name": "🔮星芽｜短剧合集",
       "type": 3,
@@ -4026,6 +4055,16 @@
       "quickSearch": 1,
       "filterable": 1,
       "genre": "shortdrama"
+    },
+    {
+      "key": "py聚合短剧",
+      "name": "🍑短剧丨聚合短剧",
+      "type": 3,
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/tushen6/Tomorrow/refs/heads/master/py/短剧聚合2.py",
+      "changeable": 1,
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "荐片",
@@ -4103,6 +4142,15 @@
       "filterable": 1
     },
     {
+      "key": "爱听音乐",
+      "name": "🎶爱听｜音乐歌曲",
+      "type": 3,
+      "api": "https://8815.kstore.vip/tvbox/py/%E7%88%B1%E5%90%AC%E9%9F%B3%E4%B9%90.py",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "呦呦DJ",
       "name": "🎶呦呦｜DJ音乐 「网络接口」",
       "type": 3,
@@ -4164,6 +4212,24 @@
         "ratio": 1.0009
       },
       "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "网络直播",
+      "name": "🎦网络｜直播合集",
+      "type": 3,
+      "api": "https://8815.kstore.vip/tvbox/py/%E7%BD%91%E7%BB%9C%E7%9B%B4%E6%92%AD.py",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "哔哩直播",
+      "name": "🅱️哔哩｜直播合集",
+      "type": 3,
+      "api": "https://8815.kstore.vip/tvbox/py/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.py",
+      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1
     },
@@ -4314,6 +4380,58 @@
         "type": "rect",
         "ratio": 1.597
       },
+      "filterable": 1
+    },
+    {
+      "key": "🐮牛牛",
+      "name": "📱牛牛ᶜʲ｜采集 「33」",
+      "type": 0,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/at/xml",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "动画片",
+        "纪录片",
+        "预告片",
+        "邵氏电影",
+        "4K电影",
+        "国产剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "港剧",
+        "台剧",
+        "泰剧",
+        "海外剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "影视解说",
+        "爽文短剧",
+        "有声动漫",
+        "女频恋爱",
+        "反转爽剧",
+        "古装仙侠",
+        "年代穿越",
+        "脑洞悬疑",
+        "现代都市",
+        "演唱会",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "篮球",
+        "足球"
+      ],
       "filterable": 1
     },
     {
