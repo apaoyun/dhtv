@@ -2239,7 +2239,7 @@
       "ext": "http://rihou.cc:88/json/douban.json",
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Config",
@@ -2250,7 +2250,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "wojh",
@@ -2261,7 +2261,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "Eclipse",
@@ -2272,7 +2272,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_MakkaPakka",
@@ -2284,7 +2284,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_TgDouban",
@@ -2299,7 +2299,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "本地",
@@ -2310,7 +2310,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "直播转点播",
@@ -2321,7 +2321,7 @@
       "ext": "http://rihou.cc:88/json/feimaolive.json",
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShareQuark",
@@ -2336,7 +2336,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShareUC",
@@ -2351,7 +2351,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShare115",
@@ -2366,7 +2366,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShare189",
@@ -2381,7 +2381,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShareBaidu",
@@ -2396,7 +2396,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShareAli",
@@ -2411,7 +2411,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShareThunder",
@@ -2426,7 +2426,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShareGy",
@@ -2441,7 +2441,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanShare123",
@@ -2456,7 +2456,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_GuanYing",
@@ -2474,7 +2474,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PingLian",
@@ -2492,7 +2492,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Gyzzs",
@@ -2508,7 +2508,7 @@
         "cookie": "",
         "comment": ""
       },
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "123社区",
@@ -2525,7 +2525,7 @@
         "filters": "http://rihou.cc:88/json/pan123fx.json",
         "comment": ""
       },
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_QiWei",
@@ -2537,7 +2537,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_SeedHub",
@@ -2552,7 +2552,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_HDmoli",
@@ -2564,7 +2564,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Xxzn",
@@ -2580,7 +2580,7 @@
         "sites": "https://4kzn.cc"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Wogg",
@@ -2597,7 +2597,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "欧歌网盘",
@@ -2614,7 +2614,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "蜡笔网盘",
@@ -2631,7 +2631,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "闪电网盘",
@@ -2648,7 +2648,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "二小网盘",
@@ -2665,7 +2665,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "木偶网盘",
@@ -2682,7 +2682,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "至臻网盘",
@@ -2699,7 +2699,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "多多网盘",
@@ -2716,7 +2716,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "短木网盘",
@@ -2733,7 +2733,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "虎斑网盘",
@@ -2750,7 +2750,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "快映网盘",
@@ -2767,7 +2767,7 @@
         "proxy": "noproxy"
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Jianpian",
@@ -2783,7 +2783,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Guazi",
@@ -2794,7 +2794,7 @@
       "changeable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Kan90",
@@ -2806,7 +2806,7 @@
       "quickSearch": 1,
       "changeable": 0,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_DuanJuCen",
@@ -2821,7 +2821,7 @@
         "classes": "http://rihou.cc:88/json/duanjucen.json"
       },
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Jbdj",
@@ -2832,7 +2832,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "双星99",
@@ -2852,7 +2852,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "金牌GET",
@@ -2868,7 +2868,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "mifun",
@@ -2883,7 +2883,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "八天App",
@@ -2898,7 +2898,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "王子4K",
@@ -2912,7 +2912,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "夸克短剧",
@@ -2980,7 +2980,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "随身评书",
@@ -2991,7 +2991,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "酷我听书",
@@ -3002,7 +3002,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "第一故事",
@@ -3014,7 +3014,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "凤凰FM",
@@ -3025,7 +3025,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "蜻蜓FM",
@@ -3036,7 +3036,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "cat_夸克影院",
@@ -3047,7 +3047,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "人人电影",
@@ -3059,7 +3059,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "泥泥视频",
@@ -3070,27 +3070,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
-    },
-    {
-      "key": "星辰影院",
-      "name": "🪐星辰┃[秒播]",
-      "type": 3,
-      "api": "http://rihou.cc:88/js/%E6%98%9F%E8%BE%B0%E5%BD%B1%E9%99%A2.js",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
-    },
-    {
-      "key": "官采",
-      "name": "🎫官采┃[采集] 「demo」",
-      "type": 1,
-      "api": "https://cj.jusj.top/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "腾腾",
@@ -3101,7 +3081,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "奇奇",
@@ -3112,7 +3092,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "果果",
@@ -3123,7 +3103,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "酷酷",
@@ -3134,7 +3114,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_IkanBot",
@@ -3148,7 +3128,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Cjhj",
@@ -3159,7 +3139,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "电影天堂",
@@ -3209,7 +3189,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Bili",
@@ -3227,7 +3207,7 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_Biliyy",
@@ -3245,7 +3225,7 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_mtv",
@@ -3263,7 +3243,7 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_bilirt",
@@ -3281,7 +3261,7 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_BeiLeHu",
@@ -3292,7 +3272,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_bilims",
@@ -3310,7 +3290,7 @@
         "ratio": 1.333
       },
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_GuaziSport",
@@ -3321,7 +3301,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_JuheSport",
@@ -3332,7 +3312,7 @@
       "changeable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "酷克PHP",
@@ -3356,7 +3336,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "AList",
@@ -3370,7 +3350,7 @@
       "playerType": 2,
       "ext": "http://rihou.cc:88/json/alist.json",
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "WebDAV",
@@ -3384,7 +3364,7 @@
       "playerType": 2,
       "ext": "http://rihou.cc:88/json/webdav.json",
       "quickSearch": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "商店",
@@ -3396,7 +3376,7 @@
       "ext": "http://rihou.cc:88/json/market.json",
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "csp_PanSou",
@@ -3419,7 +3399,7 @@
       },
       "quickSearch": 1,
       "filterable": 1,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "py_盘友圈",
@@ -3431,7 +3411,7 @@
       "searchable": 0,
       "hide": 1,
       "type": 3,
-      "jar": "https://tvbox.apao.kdns.fr/jar/12dee3dd8aa01d52bee03a0556a85beb;md5;12dee3dd8aa01d52bee03a0556a85beb"
+      "jar": "https://tvbox.apao.kdns.fr/jar/8d42c3e6aaaf2657da985ce0e1d9f765;md5;8d42c3e6aaaf2657da985ce0e1d9f765"
     },
     {
       "key": "短裤",
@@ -3617,7 +3597,7 @@
       "key": "光鸭社区",
       "name": "🦆光鸭｜社区搜索",
       "type": 3,
-      "api": "https://8815.kstore.vip/tvbox/py/%E5%85%89%E9%B8%AD%E7%A4%BE%E5%8C%BA.py",
+      "api": "https://g.blfrp.cn/https://raw.githubusercontent.com/tushen6/Tomorrow/master/py/光鸭社区.py",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 0,
@@ -3686,6 +3666,21 @@
       "type": 3,
       "api": "csp_AppMH",
       "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "麻团",
+      "name": "🍘麻团丨蓝光秒播 「网络接口」",
+      "type": 3,
+      "api": "csp_AppGet",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {
+        "url": "http://150.158.123.62:130",
+        "dataKey": "q7gj4f9br3fls6nh",
+        "dataIv": "q7gj4f9br3fls6nh"
+      },
       "quickSearch": 1,
       "filterable": 1
     },
@@ -3973,7 +3968,7 @@
       "key": "双子星",
       "name": "✨双子星丨动漫秒播 「网络接口」",
       "type": 3,
-      "api": "csp_lzxwApp",
+      "api": "csp_App99",
       "ext": {
         "host": "http://175.178.65.250:19987/app/bn",
         "LoginPath": "/app/log",
@@ -4034,16 +4029,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "genre": "shortdrama"
-    },
-    {
-      "key": "甜圈短剧",
-      "name": "🍥甜圈｜短剧合集",
-      "type": 3,
-      "api": "https://8815.kstore.vip/tvbox/py/%E7%94%9C%E5%9C%88%E7%9F%AD%E5%89%A7.py",
-      "searchable": 0,
-      "changeable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "星芽短剧",
@@ -4129,23 +4114,19 @@
       "filterable": 1
     },
     {
-      "key": "919体育",
-      "name": "⚽919｜体育直播 「网络接口」",
+      "key": "爱听音乐",
+      "name": "🎶爱听｜音乐歌曲",
       "type": 3,
-      "api": "csp_919TY",
-      "style": {
-        "type": "rect",
-        "ratio": 1.0009
-      },
-      "searchable": 1,
+      "api": "https://g.blfrp.cn/https://raw.githubusercontent.com/tushen6/Tomorrow/master/py/aiting.py",
+      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "爱听音乐",
-      "name": "🎶爱听｜音乐歌曲",
+      "key": "kwms",
+      "name": "🎶裤硪丨音乐合集",
       "type": 3,
-      "api": "https://8815.kstore.vip/tvbox/py/%E7%88%B1%E5%90%AC%E9%9F%B3%E4%B9%90.py",
+      "api": "https://g.blfrp.cn/https://raw.githubusercontent.com/tushen6/Tomorrow/master/py/kuwo.py",
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1
@@ -4212,24 +4193,6 @@
         "ratio": 1.0009
       },
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "网络直播",
-      "name": "🎦网络｜直播合集",
-      "type": 3,
-      "api": "https://8815.kstore.vip/tvbox/py/%E7%BD%91%E7%BB%9C%E7%9B%B4%E6%92%AD.py",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "哔哩直播",
-      "name": "🅱️哔哩｜直播合集",
-      "type": 3,
-      "api": "https://8815.kstore.vip/tvbox/py/%E5%93%94%E5%93%A9%E7%9B%B4%E6%92%AD.py",
-      "searchable": 0,
       "quickSearch": 1,
       "filterable": 1
     },
